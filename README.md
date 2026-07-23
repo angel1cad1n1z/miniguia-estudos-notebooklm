@@ -4,12 +4,9 @@
 
 Este repositório reúne um caderno de estudos desenvolvido com o apoio do **NotebookLM** para explorar o universo do **Software as a Service (SaaS)**.
 
-A ideia foi utilizar documentos técnicos e materiais de referência para entender, de forma prática, os principais conceitos do modelo SaaS, suas características, vantagens, desafios, arquitetura, segurança, escalabilidade e como ele é aplicado no mercado atualmente.
+A ideia foi utilizar materiais de referência para entender, de forma prática, os principais conceitos do modelo SaaS, suas características, vantagens, desafios, escalabilidade e como ele é aplicado no mercado atualmente.
 
 Além do conteúdo estudado, este projeto também registra todo o processo de pesquisa com o auxílio da Inteligência Artificial, mostrando a evolução dos prompts, os desafios encontrados ao longo do caminho e as estratégias utilizadas para obter respostas cada vez mais completas e relevantes.
-
-> [!TIP]
-> Este projeto não apresenta apenas o resultado final dos estudos. Ele também documenta todo o processo de pesquisa, aprendizagem e refinamento de prompts utilizando IA como ferramenta de apoio.
 
 ---
 
@@ -18,7 +15,6 @@ Além do conteúdo estudado, este projeto também registra todo o processo de pe
 - Entender o que é **Software as a Service (SaaS)** e como esse modelo funciona.
 - Conhecer as principais características que diferenciam o SaaS de outros modelos de computação em nuvem.
 - Explorar os benefícios e os desafios da adoção desse tipo de solução.
-- Aprender conceitos importantes sobre **arquitetura**, **escalabilidade**, **segurança** e **multi-tenancy**.
 - Utilizar o **NotebookLM** como ferramenta de apoio para organizar e aprofundar os estudos.
 - Praticar técnicas de **Engenharia de Prompts**, buscando respostas cada vez mais precisas, relevantes e contextualizadas.
 
@@ -69,7 +65,7 @@ Os materiais abaixo foram selecionados para servir como base dos estudos desenvo
 | ❓ **Revisão** | Crie dez perguntas de revisão com as respostas ao final. |
 | 🎓 **Explicação** | Explique este conceito como se estivesse ensinando alguém iniciante. |
 | 💼 **Exemplos** | Apresente exemplos práticos de aplicação desse conceito no mercado. |
-| 📖 **Glossário** | Liste todos os termos técnicos encontrados nos documentos e explique cada um deles. |
+| 📖 **Glossário** | Liste todos os termos técnicos encontrados nas fontes e explique cada um deles. |
 | ✅ **Autoavaliação** | Elabore um quiz de múltipla escolha com gabarito. |
 | 📚 **Revisão Final** | Resuma todo o conteúdo em uma única página, destacando apenas os conceitos essenciais. |
 
