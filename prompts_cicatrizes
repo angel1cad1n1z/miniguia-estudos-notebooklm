@@ -1,0 +1,324 @@
+# 🤖 Engenharia de Prompts e "Cicatrizes"
+
+> [!NOTE]
+> Este documento registra o processo de construção dos prompts utilizados durante o estudo sobre **SaaS (Software as a Service)**. Além dos resultados obtidos, também foram documentadas as referências consultadas, as dificuldades encontradas e os ajustes realizados para melhorar a qualidade das respostas.
+
+---
+
+# 📋 Objetivo
+
+O objetivo desta etapa foi utilizar o NotebookLM para aprofundar o estudo sobre SaaS a partir de fontes confiáveis, explorando diferentes formas de formular perguntas e avaliando como pequenas mudanças nos prompts influenciavam a qualidade das respostas.
+
+---
+
+# 📚 Fontes Utilizadas
+
+As respostas foram geradas utilizando exclusivamente os documentos adicionados ao NotebookLM.
+
+## Artigos
+
+- IBM — *IaaS, PaaS e SaaS: qual a diferença?*
+- IBM — *O que é Software como Serviço (SaaS)?*
+- Microsoft Azure — *O que é Software como Serviço (SaaS)?*
+- Google Cloud — *PaaS x IaaS e SaaS*
+- Salesforce — *IaaS, PaaS and SaaS*
+- Salesforce Brasil — *O que é SaaS?*
+- TOTVS — *IaaS, PaaS e SaaS*
+- Vindi — *Modelo de negócio SaaS*
+- HostGator — *Micro SaaS: entenda o que é*
+
+## Vídeos
+
+- Dicionário do Programador — *SaaS*
+- Dicionário do Programador — *Micro SaaS*
+- Tudo sobre Micro SaaS
+- O Fim do SaaS Foi Cancelado
+- Você Precisa Construir Seu SaaS em 2026
+
+---
+
+# 💬 Prompts Utilizados
+
+## Prompt 1
+
+### Pergunta
+
+> O que é SaaS e quais são suas principais características?
+
+### Objetivo
+
+Compreender o conceito de Software as a Service (SaaS) e identificar as principais características que diferenciam esse modelo da distribuição tradicional de software.
+
+### Resultado
+
+A IA explicou que o **SaaS (Software as a Service)** é um modelo de entrega de software baseado na computação em nuvem, no qual o provedor hospeda a aplicação e a disponibiliza aos usuários pela internet.
+
+Também apresentou as principais características do modelo:
+
+- modelo de assinatura;
+- acesso via internet;
+- gestão da infraestrutura pelo provedor;
+- atualizações automáticas;
+- arquitetura Multi-Tenant;
+- escalabilidade sob demanda;
+- acesso em diferentes dispositivos;
+- redução de custos com infraestrutura.
+
+### Principais referências
+
+- IBM
+- Microsoft Azure
+- Salesforce Brasil
+- Vindi
+
+### Observações
+
+Este prompt serviu como ponto de partida para todo o estudo. Os conceitos apresentados foram aprofundados nas perguntas seguintes.
+
+---
+
+## Prompt 2
+
+### Pergunta
+
+> Explique a diferença entre SaaS, PaaS e IaaS.
+
+### Objetivo
+
+Compreender as diferenças entre os principais modelos de computação em nuvem.
+
+### Resultado
+
+A IA apresentou:
+
+- definição dos três modelos;
+- responsabilidades do cliente e do provedor;
+- exemplos de mercado;
+- tabela comparativa;
+- analogias para facilitar o entendimento.
+
+### Principais referências
+
+- IBM
+- Google Cloud
+- Microsoft Azure
+- Salesforce
+- TOTVS
+
+### Observações
+
+A comparação entre os modelos facilitou a compreensão das responsabilidades existentes em cada nível da computação em nuvem.
+
+---
+
+## Prompt 3
+
+### Pergunta
+
+> Quais são as vantagens e desvantagens do modelo SaaS para empresas?
+
+### Objetivo
+
+Identificar os principais benefícios e limitações da adoção do modelo SaaS.
+
+### Resultado
+
+Foram apresentados benefícios como:
+
+- redução de custos;
+- escalabilidade;
+- atualizações automáticas;
+- alta disponibilidade;
+- mobilidade.
+
+Também foram destacados alguns desafios:
+
+- Vendor Lock-in;
+- dependência da internet;
+- menor nível de customização;
+- integração com sistemas legados.
+
+### Principais referências
+
+- IBM
+- Microsoft Azure
+- Salesforce
+- Vindi
+
+### Observações
+
+Os conceitos de CAPEX, OPEX e Vendor Lock-in apareceram diversas vezes nas diferentes fontes consultadas.
+
+---
+
+## Prompt 4
+
+### Pergunta
+
+> Como funciona a arquitetura Multi-Tenant em aplicações SaaS?
+
+### Objetivo
+
+Entender como uma única aplicação consegue atender diversos clientes mantendo seus dados isolados.
+
+### Resultado
+
+A IA explicou:
+
+- compartilhamento da mesma infraestrutura;
+- isolamento lógico dos dados;
+- otimização dos recursos;
+- redução dos custos;
+- facilidade para atualização do sistema;
+- escalabilidade.
+
+### Principais referências
+
+- IBM
+- Microsoft Azure
+- Salesforce
+
+### Observações
+
+Esse conceito foi fundamental para compreender por que o SaaS consegue reduzir custos operacionais.
+
+---
+
+## Prompt 5
+
+### Pergunta
+
+> Como funciona o modelo de monetização recorrente em serviços SaaS?
+
+### Objetivo
+
+Entender como empresas SaaS geram receita e quais métricas são utilizadas para acompanhar o negócio.
+
+### Resultado
+
+Foram apresentados os principais modelos de cobrança:
+
+- assinatura mensal;
+- assinatura anual;
+- Freemium;
+- cobrança por usuário;
+- cobrança por consumo;
+- planos em camadas (Tiered Pricing).
+
+Também foram explicadas métricas importantes como:
+
+- MRR;
+- ARR;
+- CAC;
+- LTV;
+- Churn Rate.
+
+### Principais referências
+
+- Vindi
+- Salesforce
+- IBM
+
+### Observações
+
+Esse prompt trouxe uma visão mais voltada ao modelo de negócio do SaaS.
+
+---
+
+## Prompt 6
+
+### Pergunta
+
+> Qual a diferença entre um MicroSaaS e um SaaS tradicional?
+
+### Objetivo
+
+Comparar os dois modelos de negócio.
+
+### Resultado
+
+A IA destacou diferenças relacionadas a:
+
+- tamanho do mercado;
+- escopo do produto;
+- investimento inicial;
+- equipe necessária;
+- velocidade de desenvolvimento;
+- objetivo do negócio.
+
+### Principais referências
+
+- HostGator
+- Vindi
+- Dicionário do Programador
+
+### Observações
+
+A comparação mostrou que o MicroSaaS busca resolver problemas específicos de nichos de mercado, normalmente com equipes pequenas e baixo investimento.
+
+---
+
+## Prompt 7
+
+### Pergunta
+
+> Quais são alguns exemplos reais de MicroSaaS de sucesso?
+
+### Objetivo
+
+Relacionar os conceitos estudados com aplicações reais existentes no mercado.
+
+### Resultado
+
+Foram apresentados exemplos como:
+
+- TinyPNG;
+- Calendly;
+- Grammarly;
+- Buffer;
+- ChatVolt;
+- Headline;
+- Linktree;
+- Substack.
+
+### Principais referências
+
+- HostGator
+- Dicionário do Programador
+- Vídeos sobre MicroSaaS
+
+### Observações
+
+Os exemplos ajudaram a visualizar como pequenas soluções podem se transformar em negócios sustentáveis baseados em receita recorrente.
+
+---
+
+# 🚧 Troubleshooting (Cicatrizes)
+
+Durante o processo de pesquisa foram encontrados alguns desafios.
+
+| Dificuldade | Solução adotada |
+|-------------|-----------------|
+| Conteúdo muito extenso | Solicitar respostas em tópicos e tabelas. |
+| Linguagem muito técnica | Pedir explicações voltadas para iniciantes. |
+| Necessidade de revisar rapidamente | Solicitar resumos e listas de conceitos principais. |
+
+---
+
+# 💡 Aprendizados
+
+Durante os testes foi possível perceber que:
+
+- Prompts específicos geram respostas mais completas.
+- Solicitar um formato (listas, tabelas ou tópicos) melhora significativamente a organização das respostas.
+- Informar o contexto reduz informações desnecessárias.
+- Pedir exemplos práticos facilita o entendimento de conceitos técnicos.
+- Trabalhar com fontes confiáveis aumenta a qualidade e a consistência das respostas.
+
+---
+
+# ✅ Conclusão
+
+A experiência demonstrou que a Engenharia de Prompts vai além de simplesmente fazer perguntas para uma Inteligência Artificial. O processo envolve planejamento, refinamento contínuo e análise crítica dos resultados obtidos.
+
+Ao registrar os prompts utilizados, as respostas, as fontes consultadas e as dificuldades enfrentadas, foi possível construir um material de estudo mais organizado e confiável, além de desenvolver uma metodologia que poderá ser aplicada em futuras pesquisas utilizando Inteligência Artificial.
