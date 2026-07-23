@@ -50,9 +50,13 @@ Documente as perguntas estratégicas que você elaborou e as variações de prom
 
 ### 📝 Resumo
 
+- [📄 Resumo](docs/resumo.md)
+
 --- 
 
 ### 📚 Glossário Explicativo
+
+- [📖 Glossário](docs/glossario.md)
 
 ---
 
