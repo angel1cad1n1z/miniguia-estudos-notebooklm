@@ -74,7 +74,7 @@ Os materiais abaixo foram selecionados para servir como base dos estudos desenvo
 
 ---
 
-### 🛠️ Ferramentas Utilizadas
+## 🛠️ Ferramentas Utilizadas
 
 Este projeto foi desenvolvido com o apoio das seguintes ferramentas:
 
@@ -84,7 +84,7 @@ Este projeto foi desenvolvido com o apoio das seguintes ferramentas:
 
 ---
 
-### 📌 Considerações Finais
+## 📌 Considerações Finais
 Este projeto demonstrou como ferramentas baseadas em **Inteligência Artificial** podem enriquecer o processo de aprendizagem quando utilizadas em conjunto com fontes confiáveis.
 
 Além do aprofundamento no tema **SaaS (Software as a Service)**, a experiência evidenciou a importância da **Engenharia de Prompts**, mostrando que instruções bem elaboradas contribuem para respostas mais completas, organizadas e contextualizadas.
