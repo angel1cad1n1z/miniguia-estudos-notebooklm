@@ -42,7 +42,7 @@ Os materiais abaixo foram selecionados para servir como base dos estudos desenvo
 
 ## 🤖 Engenharia de Prompts e "Cicatrizes": 
 
-- [📄 Prompts e Cicatrizes](docs/prompts_cicatrizes)
+- [📄 Prompts e Cicatrizes](docs/prompts_cicatrizes.md)
 
 ---
 
