@@ -15,7 +15,7 @@ O objetivo desta etapa foi utilizar o NotebookLM para aprofundar o estudo sobre 
 
 As respostas foram geradas utilizando exclusivamente os documentos adicionados ao NotebookLM.
 
-## Artigos
+## Sites
 
 - IBM — *IaaS, PaaS e SaaS: qual a diferença?*
 - IBM — *O que é Software como Serviço (SaaS)?*
@@ -81,7 +81,7 @@ Este prompt serviu como ponto de partida para todo o estudo. Os conceitos aprese
 
 ### Pergunta
 
-> Explique a diferença entre SaaS, PaaS e IaaS.
+> Explique a diferença entre SaaS, PaaS e IaaS em formato de tabela de uma maneira que um iniciante no assunto possa compreender. Utilize exemplos de mercado e analogias para facilitar o aprendizado.
 
 ### Objetivo
 
@@ -115,7 +115,7 @@ A comparação entre os modelos facilitou a compreensão das responsabilidades e
 
 ### Pergunta
 
-> Quais são as vantagens e desvantagens do modelo SaaS para empresas?
+> Quais são as vantagens e desvantagens do modelo SaaS para empresas? - Descreva em tópicos.
 
 ### Objetivo
 
@@ -155,7 +155,7 @@ Os conceitos de CAPEX, OPEX e Vendor Lock-in apareceram diversas vezes nas difer
 
 ### Pergunta
 
-> Como funciona a arquitetura Multi-Tenant em aplicações SaaS?
+> Como funciona a arquitetura Multi-Tenant em aplicações SaaS? Explique de maneira sucinta e de fácil compreensão. Inclua a definição de 'multi-tenant' antes de explicar como funciona.
 
 ### Objetivo
 
@@ -188,7 +188,7 @@ Esse conceito foi fundamental para compreender por que o SaaS consegue reduzir c
 
 ### Pergunta
 
-> Como funciona o modelo de monetização recorrente em serviços SaaS?
+> Descreva em tópicos como funciona o modelo de monetização recorrente em serviços SaaS?
 
 ### Objetivo
 
@@ -262,7 +262,7 @@ A comparação mostrou que o MicroSaaS busca resolver problemas específicos de 
 
 ### Pergunta
 
-> Quais são alguns exemplos reais de MicroSaaS de sucesso?
+> Quais são alguns exemplos reais de MicroSaaS de sucesso? Fale um pouco sobre eles e quais os desafios enfrentados até atingir o sucesso
 
 ### Objetivo
 
@@ -289,7 +289,7 @@ Foram apresentados exemplos como:
 
 ### Observações
 
-Os exemplos ajudaram a visualizar como pequenas soluções podem se transformar em negócios sustentáveis baseados em receita recorrente.
+Os exemplos apresentados ajudaram a visualizar como pequenas soluções podem se transformar em negócios sustentáveis baseados em receita recorrente, além de mostrar que, apesar dos desafios, a jornada até o sucesso pode ser extremamente enriquecedora.
 
 ---
 
